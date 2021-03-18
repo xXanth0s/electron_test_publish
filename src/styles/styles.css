@@ -1,0 +1,22 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    top: 0;
+    padding: 0;
+    z-index: 20;
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: normal;
+}
+
+.no-drag {
+    -webkit-app-region: no-drag;
+}
